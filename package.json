@@ -1,6 +1,6 @@
 {
-  "name": "light-vite-monorepo",
-  "description": "Here is a light-vite",
+  "name": "light-react-monorepo",
+  "description": "Here is a light-react-monorepo",
   "private": "true",
   "scripts": {
     "prepare": "husky install",
@@ -23,23 +23,14 @@
       "prettier --write --cache --ignore-unknown"
     ]
   },
-  "pnpm": {
-    "overrides": {
-      "light-vite": "workspace:*"
-    }
-  },
   "keywords": [
-    "vite",
-    "learning output"
+    "react"
   ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/types": "^7.20.2",
-    "@types/ws": "^8.5.3",
-    "chalk": "^5.1.2",
-    "esbuild": "^0.15.14",
     "eslint": "^8.28.0",
     "fs-extra": "^10.1.0",
     "husky": "^8.0.2",
